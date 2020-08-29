@@ -10,17 +10,17 @@
 </head>
 <body>
   <div id="app"></div>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-edit-on-github"></script>
   <script>
     window.$docsify = {
       name: 'microBlock IDE',
       repo: 'https://github.com/microBlock-IDE/microBlock-docs',
       plugins: [
-        EditOnGithubPlugin.create('https://github.com/microBlock-IDE/microBlock-docs/', null, 'edit on git')
+        EditOnGithubPlugin.create('https://github.com/microBlock-IDE/microBlock-docs/blob/master/')
       ]
     }
   </script>
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify-edit-on-github"></script>
 </body>
 </html>
